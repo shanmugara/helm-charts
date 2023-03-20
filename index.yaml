@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   my-mimir-distributed:
   - apiVersion: v2
-    appVersion: 4.1.0
-    created: "2023-03-20T17:37:20.206509-04:00"
+    appVersion: r225
+    created: "2023-03-20T17:43:30.65475-04:00"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -21,18 +21,18 @@ entries:
       repository: https://grafana.github.io/helm-charts
       version: 0.2.0
     description: Grafana Mimir
-    digest: c4e8e88836e7245b7d3998ebe2bbf678fe7915f5d4361bea8403aa8a7f911d56
+    digest: 542703dbc898e6eb01014f9499133a0fa3ea923a2d9aa368e0eb0c0d8535c008
     home: https://grafana.com/docs/mimir/v2.5.x/
     icon: https://grafana.com/static/img/logos/logo-mimir.svg
     kubeVersion: ^1.20.0-0
     name: my-mimir-distributed
     urls:
-    - https://shanmugara.github.io/helm-charts/my-mimir-distributed-4.1.0.tgz
-    version: 4.1.0
+    - https://shanmugara.github.io/helm-charts/my-mimir-distributed-4.1.0-weekly.225.tgz
+    version: 4.1.0-weekly.225
   mynginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T17:37:20.206969-04:00"
+    created: "2023-03-20T17:43:30.655122-04:00"
     description: A Helm chart for Kubernetes
     digest: a01cd8d161de040ed7861d04cff04d13b7815d12c753a041ba20b27065c8ce90
     name: mynginx
@@ -40,4 +40,4 @@ entries:
     urls:
     - https://shanmugara.github.io/helm-charts/mynginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-20T17:37:20.19195-04:00"
+generated: "2023-03-20T17:43:30.642033-04:00"
