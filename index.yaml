@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   my-mimir-distributed:
   - apiVersion: v2
-    appVersion: r225
-    created: "2023-03-20T17:29:07.06019-04:00"
+    appVersion: 4.1.0
+    created: "2023-03-20T17:37:20.206509-04:00"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -27,12 +27,12 @@ entries:
     kubeVersion: ^1.20.0-0
     name: my-mimir-distributed
     urls:
-    - https://shanmugara.github.io/helm-charts/my-mimir-distributed-4.1.0-weekly.225.tgz
-    version: 4.1.0-weekly.225
+    - https://shanmugara.github.io/helm-charts/my-mimir-distributed-4.1.0.tgz
+    version: 4.1.0
   mynginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T17:29:07.060643-04:00"
+    created: "2023-03-20T17:37:20.206969-04:00"
     description: A Helm chart for Kubernetes
     digest: a01cd8d161de040ed7861d04cff04d13b7815d12c753a041ba20b27065c8ce90
     name: mynginx
@@ -40,4 +40,4 @@ entries:
     urls:
     - https://shanmugara.github.io/helm-charts/mynginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-20T17:29:07.047943-04:00"
+generated: "2023-03-20T17:37:20.19195-04:00"
