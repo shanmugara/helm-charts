@@ -31,8 +31,8 @@ controllerManager:
         drop:
         - ALL
     image:
-      repository: shanmugara/spire-registrar
-      tag: v1.0
+      repository: controller 
+      tag: latest
     resources:
       limits:
         cpu: 500m
