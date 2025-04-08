@@ -1,5 +1,0 @@
-resources:
-  - ../07-pods
-
-components:
-  - ../../components/config
