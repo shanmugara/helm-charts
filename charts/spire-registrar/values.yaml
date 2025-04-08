@@ -44,6 +44,7 @@ controllerManager:
   serviceAccount:
     annotations: {}
 kubernetesClusterDomain: cluster.local
+fullnameOverride: "spire-registrar"
 metricsService:
   ports:
   - name: https
