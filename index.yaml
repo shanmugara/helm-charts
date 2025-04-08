@@ -3,6 +3,16 @@ entries:
   spire-registrar:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2025-04-08T02:12:25.173653526Z"
+    description: A Helm chart for Kubernetes
+    digest: 53f4c1899b87765a51f7b4238304b2c5527b319ea41999828cc7ca215c18d964
+    name: spire-registrar
+    type: application
+    urls:
+    - https://github.com/shanmugara/helm-charts/releases/download/spire-registrar-1.0.2/spire-registrar-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2025-04-08T01:59:20.828839189Z"
     description: A Helm chart for Kubernetes
     digest: e2fa473b2a222b566676ff55d3f1fa910d7b3b2999772479cb80378fc7ed9953
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://github.com/shanmugara/helm-charts/releases/download/spire-registrar-0.1.0/spire-registrar-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-08T01:59:20.828852765Z"
+generated: "2025-04-08T02:12:25.173668935Z"
